@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1.125rem;
+}
+
+body {
+    height: 100vh;
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-position: top -37.5rem left -18.75rem, bottom -37.5rem right -18.75rem;
+    background-repeat: no-repeat;
+    background-color: hsl(185, 75%, 39%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    height: 140px;
+    background: url(images/bg-pattern-card.svg) no-repeat center;
+}
+
+.profile-card {  
+    width: 326px;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card-header {
+    background: white;
+    /* padding: 60px 40px; */
+}
+
+.picture {
+    transform: translateY(-60px);
+    display: inline-block;
+    padding: 8px;
+}
+
+.picture img {
+    
+    display: block;
+    width: 100px;
+    height: 100px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 8px;  
+}
+
+.profile-info .name {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.age, .location {
+    font-size: 18px;
+}
+
+.card-footer {
+    background: white;
+    padding: 30px 40px;
+    border-top: 1px solid hsl(0, 0%, 59%);
+}
+
+.numbers {
+    display: flex;
+    align-items: center;
+}
+
+.items {
+    flex: 1;
+    font-size: 18px;
+}
+
+.items span {
+    display: block;
+    font-weight: bold;
+}
+/* .profile_image {
+    
+    border-radius: 50%;
+    border: 6px solid white;
+} */
